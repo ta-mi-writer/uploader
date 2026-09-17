@@ -12,3 +12,5 @@ wheels/
 .ruff_cache
 .browsers
 prompt-druft.md
+screenshot*.png
+.browser-data

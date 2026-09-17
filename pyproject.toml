@@ -8,6 +8,12 @@ dependencies = [
     "playwright>=1.63.0",
 ]
 
+[tool.ruff]
+indent-width = 2
+
+[tool.ruff.format]
+indent-style = "space"
+
 [dependency-groups]
 dev = [
     "ruff>=0.16.7",
