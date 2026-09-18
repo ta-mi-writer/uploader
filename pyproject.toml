@@ -14,7 +14,12 @@ indent-width = 2
 [tool.ruff.format]
 indent-style = "space"
 
+[tool.basedpyright]
+pythonVersion = "3.14"
+typeCheckingMode = "standard"
+
 [dependency-groups]
 dev = [
     "ruff>=0.16.7",
+    "basedpyright>=1.29.0",
 ]

@@ -14,3 +14,4 @@ wheels/
 prompt-druft.md
 screenshot*.png
 .browser-data
+.env
